@@ -21,6 +21,7 @@ function App(){
         <Route path="users" element={<Users/>}/>
         <Route path="/detail/:id" element={<Detail/>}/>
       </Routes>
+      <Home/>
       {/* <Footer/> */}
     </div>
     )
