@@ -8,7 +8,8 @@ import {Routes, Route} from "react-router-dom";
 import Home from "./pages/Home"
 import Movies from "./pages/Movies"
 import Users from "./pages/Users"
-import Footer from "./component/Footer"
+import Detail from "./component/HomeDetail"
+/* import Footer from "./component/Footer" */
 
 function App(){
   return(
@@ -18,8 +19,9 @@ function App(){
         <Route path="/" element={<Home/>}/>
         <Route path="movies" element={<Movies/>}/>
         <Route path="users" element={<Users/>}/>
+        <Route path="/detail/:id" element={<Detail/>}/>
       </Routes>
-      <Footer/>
+      {/* <Footer/> */}
     </div>
     )
 } 

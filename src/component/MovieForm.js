@@ -1,4 +1,5 @@
 import {useState, useRef, useEffect }from 'react';
+import './MovieForm.css'
 
 const MovieForm = ({addMovie}) => {
     useEffect(()=>{
@@ -41,7 +42,8 @@ const MovieForm = ({addMovie}) => {
     inputRef.current.focus()
   }
     return (
-        <div>
+        <div className='mf_container'>
+            <h2>나의 영화 리스트</h2>
             <form action="#" onSubmit={onSubmit}>
                 <input type="text" placeholder='영화제목을 쓰세요' value={movieTitle} onChange={(e)=>{setMovieTitle(e.target.value)}} ref={inputRef}/>
                 <div className='err'>{titleError}</div>

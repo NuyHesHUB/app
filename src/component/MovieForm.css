@@ -1,0 +1,27 @@
+.App{padding: 20px 0; box-sizing: border-box;}
+.pd{padding: 0 30px; height: 800px;}
+h1{text-align: center; margin-bottom: 20px; color: #555; margin-top: 10px;}
+.movie{border: 3px solid #ddd; border-radius: 10px; padding: 15px 10px; display: flex; align-items: center; margin-bottom: 5px;}
+.movie-title{flex-grow: 1;}
+.movie-year{font-size: 12px; color: rgb(204, 204, 11);; font-weight: bold; margin-left: 10px; }
+input{width: 100%; padding: 10px 20px; box-sizing: border-box; margin-bottom: 5px; border: 3px solid #ddd; border-radius: 10px;}
+.btn{width: 50%; padding: 15px 0; background: rgb(57, 90, 161); border: none; outline: none; margin-bottom: 20px; border-radius: 10px; color: #fff; font-weight: bold; font-size: 16px; display: block; margin: 20px auto;}
+.d-btn{padding: 5px 20px; background: rgb(57, 90, 161); border: none; border-radius: 10px; color: #fff; font-weight: bold;}
+
+
+
+
+.mf_container{padding-top: 50px;}
+.mf_container h2{
+    color: #242424;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 50px;
+    font-size: 20px;
+}
+.mf_container form{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.err{font-size: 10px; color: tomato; margin-bottom: 5px; margin-left: 5px;}
